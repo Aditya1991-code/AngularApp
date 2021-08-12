@@ -1,0 +1,97 @@
+.welcome{
+	text-align: center;
+	
+}
+
+.row{
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 504px;
+	width: 1500px;
+
+}
+
+.signin{
+	position: relative;
+	left: 630px;
+}
+
+.name{
+	color: white;
+}
+
+.input-name{
+	position: relative;
+	top: -190px;
+	left: 100px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;	
+}
+
+.error-name{
+	position: relative;
+	top: 21px;
+	left: -175px;
+	color: red;
+
+}
+
+.error-email{
+	position: relative;
+	top: 16px;
+	left: -175px;
+	color: red;
+}
+
+.email{
+	color: white;
+}
+
+
+
+.error-password{
+	position: relative;
+	left: 65px;
+	color: red;
+}
+
+.input-email{
+	position: relative;
+	top: -155px;
+	left: -185px;
+}
+
+.password{
+	color: white;
+}
+
+.input-phone{
+	position: relative;
+	top: 10px;
+}
+
+.phone{
+	position: relative;
+	color: white;
+}
+
+.btnlogin{
+	position: relative;
+	left: -100px;
+	bottom: 105px;
+	background-color: #65350F;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+
+}
+
+

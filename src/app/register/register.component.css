@@ -1,0 +1,250 @@
+#register {
+	background-image: url("../../assets/cookingbackground.jpg");
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.form{
+	position: relative;
+	left: 200px;
+}
+
+.regform{
+	position: relative;
+	width: 800px;
+	background-color: red;
+	background-size: 100cm;
+	height: 504px;
+	width: 3500px;
+	left: 200px;
+	top: 50px;
+}
+
+
+.firstname{
+	position: relative;
+	left: 140px;
+	top: -20px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding:0 22px;
+	font-size: 16px;
+
+}
+.lastname{
+	position: relative;
+	left: 417px;
+	top: -60px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+
+}
+.last_name{
+	position: relative;
+	left: 400px;
+	top: -60px;
+	line-height: 20px;
+	width: 150px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+.first_name{
+	position: relative;
+	left: 120px;
+	top: -20px;
+	line-height: 20px;
+	width: 120px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+
+.theage{
+	position: relative;
+	text-transform: capitalize;
+	left: 160px;
+	top: -50px;
+	line-height: 10px;
+	border-radius: 6px;
+}
+.age{
+	position: relative;
+	left: 210px;
+	top: -50px;
+	line-height: 15px;
+	width: 30px;
+	border-radius: 6px
+}
+.gender{
+	position: relative;
+	left: 439px;
+	top: -65px;
+	line-height: 10px;
+}
+.maleradio{
+	position: relative;
+	left: 502px;
+	top: -66px;
+
+}
+.male{
+	position: relative;
+	left: 447px;
+	top: -65px;
+}
+.femaleradio{
+	position: relative;
+	left: 533px;
+	top: -66px; 
+}
+.female{
+	position: relative;
+	left: 460px;
+	top: -65px;
+}
+.email{
+	position: relative;
+	left: 160px;
+	top: -50px;
+}
+.emailin{
+	position: relative;
+	left: 198px;
+	top: -50px;
+	width: 165px;
+	border-radius: 6px;
+	line-height: 20px;
+}
+.birthday{
+	position: relative;
+	left: 438px;
+	top: -70px;
+	text-transform: capitalize;
+}
+.DOB{
+	position: relative;
+	left: 487px;
+	top: -72px;
+	line-height: 20px;
+	border-radius: 6px;
+}
+.Sports{
+	position: relative;
+	left: 160px;
+	top: -60px;
+}
+.Cricket{
+	position: relative;
+	left: 160px;
+	top: -50px;
+}
+.cricketradio{
+	position: relative;
+	left: 160px;
+	top: -50px;
+}
+.Badminton{
+	position: relative;
+	left: 170px;
+	top: -50px;
+}
+.Badmintonradio{
+	position: relative;
+	left: 170px;
+	top: -50px;
+}
+.Hockey{
+	position: relative;
+	left: 180px;
+	top: -50px;
+}
+.hockeyradio{
+	position: relative;
+	left: 180px;
+	top: -50px;
+}
+.Football{
+	position: relative;
+	left: 190px;
+	top: -50px;
+}
+.Vollyball{
+	position: relative;
+	left: 200px;
+	top: -50px;
+
+}
+.vollyballradio{
+	position: relative;
+	left: 200px;
+	top: -50px;
+}
+.Basketball{
+	position: relative;
+	left: 210px;
+	top: -50px;
+}
+.basketballradio{
+	position: relative;
+	left: 210px;
+	top: -50px;
+}
+.country{
+	position: relative;
+	left: 160px;
+	top: -35px;
+}
+.selection{
+	position: relative;
+	left: 180px;
+	top: -35px;
+	line-height: 40px;
+}
+.Username{
+	position: relative;
+	left: 160px;
+	top: -25px;
+}
+.usernamebox{
+	position: relative;
+	left: 162px;
+	top: -25px;
+	border-radius: 6px;
+	line-height: 20px;
+}
+.password{
+	position: relative;
+	left: 435px;
+	top: -45px;
+}
+.pwd{
+	position: relative;
+	left: 440px;
+	top: -45px;
+	border-radius: 6px;
+	line-height: 20px;
+}
+.submit{
+	position: relative;
+	left: 290px;
+	top: 100px;
+	background-color: #65350F;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+}
+.complete{
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 20px 40px;
+	font-size: 20px;
+}

@@ -1,0 +1,16 @@
+.body{
+ background-image: url('/Users/adiakkapeddi/Desktop/UIdeveloper/Angular/firstapp/src/app/cookingbackground.jpg');
+ background-position: center;
+ background-size: cover;
+ font-family: sans-serif;
+ margin-top: 20px;
+}
+.company{
+    position: relative;
+    color: blue;
+}
+
+.nav{
+    position: relative;
+    align-items: center;
+}

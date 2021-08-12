@@ -1,0 +1,59 @@
+<div id="register">
+    <title>Create an account</title>
+    <div>
+      <h1 align="center">Create an Account</h1>
+    
+    </div>
+    
+    <div class="regform">
+    <div class="firstname-section">
+      <label class="firstname">First name:</label>           
+      <input id="first_name" class="first_name" name="first_name">
+    </div>
+    <div>
+        <label class="lastname">Last name:</label>
+        <input id="last_name" class="last_name" name="last_name"> 
+    </div>
+    <div>
+        <label class="theage">age:</label>
+        <input id="age" class="age" size="2px" min="0" max="100">      
+    </div>
+    <div id="GNDR">
+        <label class="gender" id="gender">Gender:</label>
+                <input type="radio" class="maleradio" id="Male" name="gender" value="male">
+                <label for="male" class="male">Male</label>
+                <input type="radio" class="femaleradio" id="Female" name="gender" value="female">
+        <label class="female">Female</label>
+      </div>
+      <div>
+         <label class="email">Email:</label>
+              <input type="rext" class="emailin" name="email" id="email">
+          </div>
+     <div>
+       <label class="birthday">DOB</label>
+            <input type="date" class="DOB" id="birthday" name="DOB" value="0000-00-00">
+     </div>
+     <div>
+            <label class="country" id="country">Country:</label>
+            <SELECT class="selection" id="countryselect">
+              <option>select country</option>
+              <option value="United States">United States</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="India">India</option>
+              <option value="Mexico">Mexico</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+            </SELECT>
+      </div>
+      <div>
+            <label class="Username">Username:</label>
+            <input class="usernamebox" type="rext" size="15px" id="Username" name="username">
+      </div>
+      <div>
+            <label class="password">Password (min. 8 char.)</label>
+            <input type="password" id="Password" class="pwd" pattern=".{8,}" title="Eight or more characters">
+            <br>
+            <button (click)='registrationform()' class="submit">Submit</button>
+      </div>
+    </div>
+    </div>
